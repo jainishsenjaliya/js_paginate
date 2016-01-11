@@ -1,0 +1,8 @@
+
+2015-11-19  Jainish Senjaliya,,,  <jainish.online@gmail.com>
+
+	* This is simple Extension for Pagination
+	* We can add pagination before content and after content area
+	* We can set number of items Per Page 
+	* We can set maximum Visible Pages limit
+	* Released version 1.0.0

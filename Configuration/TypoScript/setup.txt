@@ -1,0 +1,5 @@
+plugin.tx_jspaginate {
+	settings{
+		hideDotInNavigation = {$plugin.tx_jspaginate.settings.hideDotInNavigation}
+	}
+}
