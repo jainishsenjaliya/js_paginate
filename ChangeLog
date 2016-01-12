@@ -1,5 +1,10 @@
 
-2015-11-19  Jainish Senjaliya,,,  <jainish.online@gmail.com>
+2015-12-19  Jainish Senjaliya <jainish.online@gmail.com>
+
+	* Compatibility with TYPO3 7.6
+	* Released version 1.0.1
+
+2015-11-19  Jainish Senjaliya <jainish.online@gmail.com>
 
 	* This is simple Extension for Pagination
 	* We can add pagination before content and after content area
