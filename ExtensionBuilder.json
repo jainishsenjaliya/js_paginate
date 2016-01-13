@@ -16,7 +16,7 @@
             "sourceLanguage": "en",
             "state": "stable",
             "targetVersion": "6.2",
-            "version": "1.0.1"
+            "version": "1.0.2"
         },
         "extensionKey": "js_paginate",
         "name": "Paginate",
@@ -24,7 +24,7 @@
         "persons": [
             {
                 "company": "",
-                "email": "jainish.online@gmail.com",
+                "email": "jainishsenjaliya@gmail.com",
                 "name": "Jainish Senjaliya",
                 "role": "Developer"
             }
@@ -38,7 +38,7 @@
 
     ],
     "log": {
-        "last_modified": "2015-11-19 06:05",
+        "last_modified": "2015-12-23 06:05",
         "extension_builder_version": "6.2.0",
         "be_user": " (1)"
     }

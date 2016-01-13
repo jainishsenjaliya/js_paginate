@@ -35,7 +35,7 @@ Paginate
 		Jainish Senjaliya
 
 	:Email:
-		jainish.online@gmail.com
+		jainishsenjaliya@gmail.com
 
 	:License:
 		This document is published under the Open Content License

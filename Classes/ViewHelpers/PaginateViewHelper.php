@@ -4,7 +4,7 @@ namespace JS\JsPaginate\ViewHelpers;
 /***************************************************************
 *  Copyright notice
 *
-*  (c) 2015 Jainish Senjaliya <jainish.online@gmail.com>
+*  (c) 2015 Jainish Senjaliya <jainishsenjaliya@gmail.com>
 *
 *  All rights reserved
 *
@@ -29,7 +29,7 @@ namespace JS\JsPaginate\ViewHelpers;
  * This widget is a copy of the fluid paginate widget. Now it's possible to
  * use arrays with paginate, not only query results.
  *
- * @author     Jainish Senjaliya <jainish.online@gmail.com>
+ * @author     Jainish Senjaliya <jainishsenjaliya@gmail.com>
  * @copyright  2015 Copyright belongs to the respective authors
  * @license    http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
  */
