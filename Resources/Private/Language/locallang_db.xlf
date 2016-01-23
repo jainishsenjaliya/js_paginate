@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2015-11-19T06:05:00Z" product-name="js_paginate">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-01-23T10:33:20Z" product-name="js_paginate">
 		<header/>
 		<body>
 			<trans-unit id="pagination_first">
 				<source>First</source>
 			</trans-unit>
-
 			<trans-unit id="pagination_last">
 				<source>Last</source>
 			</trans-unit>
-
 			<trans-unit id="pagination_previous">
 				<source>Previous</source>
 			</trans-unit>
-
 			<trans-unit id="pagination_next">
 				<source>Next</source>
 			</trans-unit>

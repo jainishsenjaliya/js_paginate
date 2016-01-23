@@ -31,10 +31,10 @@ namespace JS\JsPaginate\Controller;
  * This view helper uses the technology of paginate widget but works with arrays
  * and the assigned objects don't need the QueryResultInterface.
  *
- * @package	Typo3
+ * @package Typo3
  *
- * @author	 Jainish Senjaliya <jainishsenjaliya@gmail.com>
- * @license	http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
+ * @author   Jainish Senjaliya <jainishsenjaliya@gmail.com>
+ * @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
  */
 class PaginateController extends \TYPO3\CMS\Fluid\Core\Widget\AbstractWidgetController {
 
@@ -233,10 +233,10 @@ class PaginateController extends \TYPO3\CMS\Fluid\Core\Widget\AbstractWidgetCont
 	 * Adds the nextPage and the previousPage to the pagination array
 	 *
 	 * @param array $pagination the pagination array which get previous and
-	 *		next page
+	 *	  next page
 	 *
 	 * @return array the pagination array which contains some meta data and
-	 *		 another array which are the pages
+	 *	   another array which are the pages
 	 */
 	protected function addPreviousAndNextPage($pagination) {
 		if ($this->currentPage < $this->numberOfPages) {

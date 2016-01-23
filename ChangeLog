@@ -1,4 +1,9 @@
 
+2016-01-23  Jainish Senjaliya,,,  <jainishsenjaliya@gmail.com>
+
+	* Added First and last options in pagination
+	* Released version 1.0.3
+
 2015-12-23  Jainish Senjaliya <jainishsenjaliya@gmail.com>
 
 	* Bug Fixes for TYPO3 version 7
@@ -9,7 +14,7 @@
 	* Compatibility with TYPO3 7.6
 	* Released version 1.0.1
 
-2015-11-19  Jainish Senjaliya <jainishsenjaliya@gmail.com>
+2015-11-19  Jainish Senjaliya,,,  <jainishsenjaliya@gmail.com>
 
 	* This is simple Extension for Pagination
 	* We can add pagination before content and after content area

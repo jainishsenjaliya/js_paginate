@@ -29,7 +29,7 @@ Paginate
 		comma,separated,list,of,keywords
 
 	:Copyright:
-		2015
+		2016
 
 	:Author:
 		Jainish Senjaliya
@@ -50,9 +50,8 @@ Paginate
 	**Table of Contents**
 
 .. toctree::
-	:maxdepth: 5
+	:maxdepth: 3
 	:titlesonly:
-	:glob:
 
 	Introduction/Index
 	User/Index
@@ -62,4 +61,4 @@ Paginate
 	KnownProblems/Index
 	ToDoList/Index
 	ChangeLog/Index
-	Targets
+	Links

@@ -13,14 +13,16 @@
             "dependsOn": "typo3 => 6.0.0 - 7.6.99",
             "disableLocalization": false,
             "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
             "sourceLanguage": "en",
             "state": "stable",
-            "targetVersion": "6.2",
-            "version": "1.0.2"
+            "targetVersion": "7.6.0-7.6.99",
+            "version": "1.0.3"
         },
         "extensionKey": "js_paginate",
         "name": "Paginate",
         "originalExtensionKey": "js_paginate",
+        "originalVendorName": "JS",
         "persons": [
             {
                 "company": "",
@@ -38,8 +40,8 @@
 
     ],
     "log": {
-        "last_modified": "2015-12-23 06:05",
-        "extension_builder_version": "6.2.0",
+        "last_modified": "2016-01-23 10:33",
+        "extension_builder_version": "7.6.0",
         "be_user": " (1)"
     }
 }
