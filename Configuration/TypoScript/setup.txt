@@ -3,3 +3,10 @@ plugin.tx_jspaginate {
 		hideDotInNavigation = {$plugin.tx_jspaginate.settings.hideDotInNavigation}
 	}
 }
+
+page {
+	# Inlude JavaScript files
+	includeCSS {
+		paginate = {$plugin.tx_jspaginate.settings.additional.css.basic.uri}
+	}
+}

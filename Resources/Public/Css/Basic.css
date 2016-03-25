@@ -1,0 +1,29 @@
+/*
+ *  (c) 2016 Jainish Senjaliya <jainishsenjaliya@gmail.com>
+ *  All rights reserved
+ *  Basic Layout 
+*/
+
+.tx-js-paginator {
+	width:100%;
+	margin:0px;
+	list-style:none;
+	text-align:center;
+	margin:20px 0 10px 0;
+}
+.tx-js-paginator li {
+	display:inline-block;
+	margin:0px;
+	padding:6px 10px;
+	border:1px solid #ddd;
+	margin-right:5px;
+}
+.tx-js-paginator li a {
+	color:#000;
+	text-decoration: none;
+}
+
+.tx-js-paginator li span {
+	color:#999;
+	cursor: default;
+}

@@ -1,5 +1,14 @@
 plugin.tx_jspaginate {
 	settings{
 		hideDotInNavigation = 0
+
+		additional {
+			css {
+				basic{
+					# cat=jspagination_additional/file; type=string; label= Basic CSS Path
+					uri = typo3conf/ext/js_paginate/Resources/Public/Css/Basic.css
+				}
+			}
+		}
 	}
 }
