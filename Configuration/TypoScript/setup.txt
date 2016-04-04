@@ -10,3 +10,11 @@ page {
 		paginate = {$plugin.tx_jspaginate.settings.additional.css.basic.uri}
 	}
 }
+
+[globalVar = LIT:Fancy = {$plugin.tx_jspaginate.settings.additional.css.layout}]
+page {
+	# Inlude JavaScript files
+	includeCSS {
+		paginate = {$plugin.tx_jspaginate.settings.additional.css.fancy.uri}
+	fancy}
+[end]

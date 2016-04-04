@@ -8,6 +8,14 @@ plugin.tx_jspaginate {
 					# cat=jspagination_additional/file; type=string; label= Basic CSS Path
 					uri = typo3conf/ext/js_paginate/Resources/Public/Css/Basic.css
 				}
+
+				fancy{
+					# cat= jspagination_additional/file; type=string; label= Fancy CSS Path
+					uri = typo3conf/ext/js_paginate/Resources/Public/Css/Fancy.css
+				}
+				
+				# cat=jspagination_additional//a; type=options[Basic,Fancy]; label= Layout
+				layout = Basic
 			}
 		}
 	}

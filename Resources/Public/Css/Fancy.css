@@ -1,7 +1,7 @@
 /*
  *  (c) 2016 Jainish Senjaliya <jainishsenjaliya@gmail.com>
  *  All rights reserved
- *  Basic Layout 
+ *  Fancy Layout 
 */
 
 .tx-js-paginator {
@@ -11,12 +11,12 @@
 	margin:20px 0 10px 0;
 	padding: 0px;
 }
-.tx-js-paginator li {
+.tx-js-paginator li{
 	display:inline-block;
 	line-height: 40px;
 }
 .tx-js-paginator li a, .tx-js-paginator li span{
-	color:#000;
+	color: #4d90fe;
 	margin:0px;
 	padding:6px 10px;
 	margin-right:5px;
@@ -30,14 +30,17 @@
 	text-shadow: 0 1px rgba(0, 0, 0, 0.1);
 	text-decoration: none;
 }
-
 .tx-js-paginator li a:hover, .tx-js-paginator li.current span {
-	background-color: #999;
-	border-color: #999;
+	background-color: #4d90fe;
+	border-color: #3079ed;
+	background-image: -moz-linear-gradient(center top , #4D90FE, #4787ED);
+	background-image:-webkit-linear-gradient(center top , #4D90FE, #4787ED);
+	background-image:-o-linear-gradient(center top , #4D90FE, #4787ED);
+	background-image:-ms-linear-gradient(center top , #4D90FE, #4787ED);
 	color: #fff;
 }
 
-.tx-js-paginator li span {
-	color:#999;
+.tx-js-paginator li span{
+	color: #ccc;
 	cursor: default;
 }
