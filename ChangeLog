@@ -1,3 +1,9 @@
+2016-05-06  Jainish Senjaliya, <jainishsenjaliya@gmail.com>
+
+	* Added language files for German
+	* Compatibility with TYPO3 8.0
+	* Released version 2.0.2
+
 2016-04-04  Jainish Senjaliya, <jainishsenjaliya@gmail.com>
 
 	* Added fancy layout option and manage through typoscript
