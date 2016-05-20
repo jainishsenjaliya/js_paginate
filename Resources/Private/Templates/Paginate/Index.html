@@ -10,7 +10,7 @@
 </f:if>
 
 <f:section name="paginator">
-	<ul class="tx-js-paginator">
+	<ul class="tx-js-paginator pagination">
 		<!-- First -->
 		<f:if condition="{pagination}">
 			<f:if condition="{f:translate(key:'pagination_first')}">
@@ -53,11 +53,18 @@
 				</f:if>
 			</f:if>
 		</f:if>
+
+		<!-- Dot before paginate -->
+		<f:if condition="{configuration.displayDots}">
+			<f:if condition="{pagination.hasLessPages}">
+				<li><span>....</span></li>
+			</f:if>
+		</f:if>
 				
 		<f:for each="{pagination.pages}" as="page">
 			<f:if condition="{page.isCurrent}">
 				<f:then>
-					<li class="current">
+					<li class="current active">
 						<span>{page.number}</span>
 					</li>
 				</f:then>
@@ -75,6 +82,13 @@
 				</f:else>
 			</f:if>
 		</f:for>
+
+		<!-- Dot before paginate -->
+		<f:if condition="{configuration.displayDots}">
+			<f:if condition="{pagination.hasMorePages}">
+				<li><span>....</span></li>
+			</f:if>
+		</f:if>
 		
 		<!-- Next -->
 		<f:if condition="{pagination}">

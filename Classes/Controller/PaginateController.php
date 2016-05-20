@@ -41,7 +41,7 @@ class PaginateController extends \TYPO3\CMS\Fluid\Core\Widget\AbstractWidgetCont
 	/**
 	 * @var array
 	 */
-	protected $configuration = array('itemsPerPage' => 5, 'insertAbove' => FALSE, 'insertBelow' => TRUE, 'maximumVisiblePages' => 7);
+	protected $configuration = array('itemsPerPage' => 5, 'insertAbove' => FALSE, 'insertBelow' => TRUE, 'maximumVisiblePages' => 7, 'displayDots' => FALSE);
 
 	/**
 	 * @var array
@@ -202,6 +202,7 @@ class PaginateController extends \TYPO3\CMS\Fluid\Core\Widget\AbstractWidgetCont
 	 * @return array
 	 */
 	protected function buildPagination() {
+		
 		$sidePageCount = intval($this->configuration['maximumVisiblePages']) >> 1;
 
 		$firstPage = max($this->currentPage - $sidePageCount, 1);

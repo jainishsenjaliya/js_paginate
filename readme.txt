@@ -4,7 +4,7 @@ First we need to declare name space in your template file
 
 then after we can use following pagination script. and need to add our records [ array ] in objects 
 
-<pg:Paginate objects="{faq}" as="paginatedObject" configuration="{itemsPerPage: 5, insertAbove: 1, insertBelow: 1, maximumVisiblePages: 5}">
+<pg:Paginate objects="{faq}" as="paginatedObject" configuration="{itemsPerPage: 5, insertAbove: 1, insertBelow: 1, maximumVisiblePages: 5, displayDots: 0}">
 	<div class="faq-list">
 		<f:for each="{paginatedObject}" as="list" iteration="itemIteration">
 			<div class="even {f:if(condition: itemIteration.isOdd , then: 'odd')}">
@@ -31,3 +31,5 @@ then after we can use following pagination script. and need to add our records [
 4) maximumVisiblePages = 5
 	Maximum Visible Pages 5 in pagination.
 
+5) displayDots = 1
+	if displayDots is true then dot ( ... ) will be display between pagination after we reach more than maximum Visible Pages.
