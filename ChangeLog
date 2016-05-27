@@ -1,3 +1,8 @@
+2016-05-31  Jainish Senjaliya, <jainishsenjaliya@gmail.com>
+
+	* Added language files for Dutch
+	* Released version 2.0.4
+
 2016-05-20  Jainish Senjaliya, <jainishsenjaliya@gmail.com>
 
 	* Added dotted ( ... ) in pagination. if we reach more than maximum Visible Pages limit then dotted will be added after maximum Visible Pages
