@@ -20,22 +20,45 @@ Here should be described how to use the extension from the editor perspective.
    Simple pagination configuration your plugin.
 
 
-.. First need to add pagination viewhelper in your file.::
+.. First need to add pagination viewhelper in your file. ::
 
    {namespace pg=JS\JsPaginate\ViewHelpers}
 
 
-   <pg:Paginate objects="{FAQ}" as="paginatedObjekt" configuration="{itemsPerPage: 10, insertAbove: 0, insertBelow: 1, maximumNumberOfLinks: 4, maximumVisiblePages: 3}">
 
-      <f:for each="{paginatedObjekt}" as="faq">
+configuration setting
+---------------------
+Following code need to use when data are in array form.::
 
-         YOUR CONTENT
+.. code-block:: html
 
-      </f:for>
+	{namespace pg=JS\JsPaginate\ViewHelpers}
+	
+	<pg:Paginate objects="{FAQ}" as="paginatedObjekt" configuration="{itemsPerPage: 5, insertAbove: 0, insertBelow: 1, maximumVisiblePages: 5, displayDots: 1}">
 
-   </pg:Paginate>   
+		<f:for each="{paginatedObjekt}" as="faq">
 
+			YOUR CONTENT
+
+		</f:for>
+
+	</pg:Paginate>
+
+
+	1) itemsPerPage = 5
+		5 records will display on first page
+
+	2) insertAbove = 1
+		if insertAbove is true then pagination will display before content 
+
+	3) insertBelow = 1
+		if insertAbove is true then pagination will display after content 
+
+	4) maximumVisiblePages = 5
+		Maximum Visible Pages 5 in pagination.
+
+	5) displayDots = 1
+		if displayDots is true then dot ( ... ) will be display between pagination after we reach more than maximum Visible Pages.
 
 .. figure:: ../Images/JSPaginate-Configuration.png
-   :alt: Pagination Configuration in extension.
-
+   :alt: Pagination Configuration in Extension.

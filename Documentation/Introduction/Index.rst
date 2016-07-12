@@ -16,7 +16,7 @@ Pagination extension provides the pagination for all the custom extension record
 
 .. important::
 
-   Please don't forget include your static template (from extensions)
+   Please don't forget include your static template (from extensions). Otherwise layout will not work.
 
 
 .. _screenshots:

@@ -8,7 +8,7 @@
 
 .. _introduction:
 
-Introduction
+Configuration
 ============
 
 Pagination extension provides the pagination for all the custom extension records and as well bydefault extension like news.
