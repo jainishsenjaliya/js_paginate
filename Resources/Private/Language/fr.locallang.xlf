@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="nl" datatype="plaintext" original="messages" date="2016-05-31T06:05:00Z" product-name="js_paginate">
+	<file source-language="fr" datatype="plaintext" original="messages" date="2016-08-13T06:05:00Z" product-name="js_paginate">
 		<header/>
 		<body>
 
 			<trans-unit id="pagination_first">
-				<target>Eerste</target>
+				<target>Premier</target>
 			</trans-unit>
 
 			<trans-unit id="pagination_last">
-				<target>Laatste</target>
+				<target>Dernier</target>
 			</trans-unit>
 
 			<trans-unit id="pagination_previous">
-				<target>Vorige</target>
+				<target>Précédent</target>
 			</trans-unit>
 
 			<trans-unit id="pagination_next">
-				<target>Volgende</target>
+				<target>Suivant</target>
 			</trans-unit>
 
 		</body>

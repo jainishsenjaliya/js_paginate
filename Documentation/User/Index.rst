@@ -30,7 +30,6 @@ configuration setting
 ---------------------
 Following code need to use when data are in array form.::
 
-.. code-block:: html
 
 	{namespace pg=JS\JsPaginate\ViewHelpers}
 	
