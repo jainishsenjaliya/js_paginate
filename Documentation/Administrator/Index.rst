@@ -33,7 +33,7 @@ To install the extension, perform the following steps:
 
 .. tip::
 
-   Pagination layout configuration for layout.
+   Pagination configuration for Basic and Fancy layout.
 
 
 .. figure:: ../Images/JSPaginate-Typoscript.png

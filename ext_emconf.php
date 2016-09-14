@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'Paginate',
-	'description' => 'Pagination extension provides the pagination for the custom extension records.',
+	'description' => 'Pagination extension provides the pagination for the custom extension records, News extension and other extensions',
 	'category' => 'misc',
 	'author' => 'Jainish Senjaliya',
 	'author_email' => 'jainishsenjaliya@gmail.com',
@@ -21,7 +21,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'uploadfolder' => '0',
 	'createDirs' => '',
 	'clearCacheOnLoad' => 0,
-	'version' => '2.0.7',
+	'version' => '3.0.0',
 	'constraints' => array(
 		'depends' => array(
 			'typo3' => '6.0.0 - 8.9.99',

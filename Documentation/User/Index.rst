@@ -30,6 +30,7 @@ configuration setting
 ---------------------
 Following code need to use when data are in array form.::
 
+.. code-block:: xml
 
 	{namespace pg=JS\JsPaginate\ViewHelpers}
 	
@@ -58,6 +59,7 @@ Following code need to use when data are in array form.::
 
 	5) displayDots = 1
 		if displayDots is true then dot ( ... ) will be display between pagination after we reach more than maximum Visible Pages.
+
 
 .. figure:: ../Images/JSPaginate-Configuration.png
    :alt: Pagination Configuration in Extension.
