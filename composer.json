@@ -1,0 +1,14 @@
+{
+  "name": "Jainish Senjaliya/js_paginate",
+  "description": "Pagination extension provides the pagination for the custom extension records, News extension and other extensions.",
+  "type": "typo3-cms-extension",
+  "keywords": ["TYPO3 CMS", "Pagination"],
+  "homepage": "https://github.com/jainishsenjaliya/js_paginate",
+  "version": "3.0.1",
+  "support": {
+    "issues": "https://github.com/jainishsenjaliya/js_paginate/issues"
+  },
+  "require": {
+      "typo3/cms": "6.0.0 - 8.9.99"
+  }
+}
