@@ -57,4 +57,5 @@ Pagination
 	Configuration/Index
 	Administrator/Index
 	User/Index
+	ChangeLog/Index
 	Links
